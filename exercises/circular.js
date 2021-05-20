@@ -10,15 +10,7 @@
 // Your code :
 const circular =
  {
-    circular: {
-        circular: {
-            circular: {
-                circular: {
-                    circular: 'circular'
-                }
-            }
-        }
-        }k
+    circular: 'circular'
 }
 console.log(circular.circular)
 //* Begin of tests

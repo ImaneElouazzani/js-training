@@ -16,9 +16,9 @@ const sourceObject = {
 }
 
 // Your code :
-const get = (num)=>{
+/*const get = (num)=>{
   sourceObject[num]
-}
+}*/
 //* Begin of tests
 const assert = require('assert')
 
