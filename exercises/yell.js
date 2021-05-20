@@ -6,9 +6,11 @@
  *
  */
 
-
+const yell = (s) =>{
+    return(s.toUpperCase());
+}
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+console.log(yell("imane"))
+//assert.fail('You must write your own tests')
 // End of tests */

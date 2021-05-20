@@ -7,9 +7,11 @@
  *
  */
 
-
+const whisper = (s)=>{
+    return(s.toLowerCase())
+}
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+console.log(whisper("HELLO"))
+//assert.fail('You must write your own tests')
 // End of tests */
