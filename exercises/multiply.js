@@ -9,7 +9,21 @@
  */
 
 // Your code :
+const multiply = (nb1, nb2) => {
+    var n = nb1;
+    var res = 0;
 
+    if (nb2 < 0) {
+        for (var i = 0; i > nb2; i--) {
+            res -= n;
+        }
+    } else {
+        for (var i = 0; i < nb2; i++) {
+            res += n;
+        }
+    }
+    return res;
+}
 //* Begin of tests
 const assert = require('assert')
 

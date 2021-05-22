@@ -5,7 +5,17 @@
  * and return a string of all the element separated by a space
  *
  */
+const sentence = (arr) => {
+    var str = "";
 
+    for (var i = 0; i < arr.length; i++) {
+        if (i < arr.length - 1)
+            str += arr[i] + ' ' ;
+        else
+            str += arr[i];
+    }
+    return str;
+}
 
 //* Begin of tests
 const assert = require('assert')

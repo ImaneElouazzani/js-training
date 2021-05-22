@@ -10,10 +10,23 @@
  *
  */
 
+const jadenCase = (str) => {
+    let newStr = "";
 
+    var arr = str.split(' ').map(word => {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+    });
+    for (var i = 0; i < arr.length; i++) {
+        if (i == arr.length - 1)
+            newStr += arr[i];
+        else
+            newStr += arr[i] + ' ';
+    }
+    return newStr;
+}
 
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+console.log(jadenCase("hello imane"))
+//assert.fail('You must write your own tests')
 // End of tests */

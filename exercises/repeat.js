@@ -7,10 +7,17 @@
  * Of course you may not use the method directly
  *
  */
-
+const repeat = (s,n) =>{
+    let str = "";
+    for(let i = 0; i < n; i++)
+    {
+        str += s
+    }
+    return str
+}
 //* Begin of tests
 const assert = require('assert')
-
+console.log(repeat("mi", 6))
 assert.strictEqual(typeof repeat, 'function')
 assert.strictEqual(repeat.length, 2)
 assert.strictEqual(repeat.toString().includes('.repeat'), false)

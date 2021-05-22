@@ -8,7 +8,7 @@
  */
 
 const whisper = (s)=>{
-    return(s.toLowerCase())
+    return("*" + s.toLowerCase() + "*")
 }
 //* Begin of tests
 const assert = require('assert')
